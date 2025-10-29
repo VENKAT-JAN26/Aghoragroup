@@ -949,4 +949,26 @@
 }
 /*** copyright end ***/
 
+.process-item {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px  #ff5e15 !important ;
+  /* rgba(0, 0, 0, 0.05)  */
+}
 
+.process-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px  #ff5e15 !important ;
+  /* rgba(0, 0, 0, 0.15) */
+}
+
+.process-icon i {
+  
+padding: 1.25rem !important;
+  transition: transform 0.3s ease, color 0.3s ease;
+  background-color:  #ff5e15 !important; 
+}
+
+.process-item:hover .process-icon i {
+  transform: scale(1.2);
+  color: #ff6600; /* highlight color */
+}
